@@ -1,8 +1,8 @@
 name: PR Needs Rebase
 
-on:
-  schedule:
-    - cron: '0 * * * *'
+#on:
+#  schedule:
+#    - cron: '0 * * * *'
 
 permissions:
   pull-requests: write
