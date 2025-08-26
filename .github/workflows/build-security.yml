@@ -25,8 +25,8 @@ jobs:
       file_to_build: Dockerfile
       cache: false
       push_to_images: |
-        tootsuite/mastodon
-        ghcr.io/mastodon/mastodon
+        echococo110/mastodon
+        ghcr.io/echococo110/mastodon
       version_prerelease: ${{ needs.compute-suffix.outputs.prerelease }}
       labels: |
         org.opencontainers.image.description=Nightly build image used for testing purposes
@@ -45,8 +45,8 @@ jobs:
       file_to_build: streaming/Dockerfile
       cache: false
       push_to_images: |
-        tootsuite/mastodon-streaming
-        ghcr.io/mastodon/mastodon-streaming
+        echococo110/mastodon-streaming
+        ghcr.io/echococo110/mastodon-streaming
       version_prerelease: ${{ needs.compute-suffix.outputs.prerelease }}
       labels: |
         org.opencontainers.image.description=Nightly build image used for testing purposes
